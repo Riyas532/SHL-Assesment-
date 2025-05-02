@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Core Java (Entry Level)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/core-java-entry-level-new/",
+    "description": "Assessment for entry-level Java developers",
+    "duration": 40,
+    "remote": "Yes",
+    "adaptive": "No",
+    "type": "Coding"
+  },
+  {
+    "name": "Agile Software Development",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/agile-software-development/",
+    "description": "Assessment on agile practices",
+    "duration": 30,
+    "remote": "Yes",
+    "adaptive": "No",
+    "type": "Situational"
+  }
+]
