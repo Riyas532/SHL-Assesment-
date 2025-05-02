@@ -12,8 +12,9 @@ if st.button("Get Recommendations"):
         if results:
             # Format results into DataFrame
             for item in results:
-                item["name"] = f"[{item['name']}]({item['url']})"
-                del item["url"]  # We include it as a link in the name
+                if "url" in item and "name" in item:
+                    item["name"] = f"[{item['name']}]({item['url']})"
+                    del item["url"] # We include it as a link in the name
             df = pd.DataFrame(results)
             df.columns = [col.capitalize() for col in df.columns]
             st.markdown("### Top Recommended Assessments")
